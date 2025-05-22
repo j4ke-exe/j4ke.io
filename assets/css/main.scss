@@ -26,26 +26,13 @@
   background-color: #3d4e6b;
 }
 
-
 .footer {
-  /* Mobile (<900px) */
-  @media screen and (min-width: 5rem) {
-  position: absolute;
-  bottom: 1;
+  position: relative;
+  bottom: 0;
   width: 100%;
   text-align: left;
-  padding: 1.6rem;
+  padding: 1rem 0 0rem;
   font-size: 0.9rem;
-  }
-  /* Normal (≥900px) */
-  @media screen and (min-width: 35rem) {
-  position: absolute;
-  bottom: 1;
-  width: 100%;
-  text-align: left;
-  padding: 0rem;
-  font-size: 0.9rem;
-  }
 }
 
 .custom-alert {
