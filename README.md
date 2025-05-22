@@ -20,11 +20,10 @@ If you're interested in GT OMSCY or self-studying cybersecurity, this site will 
 
 This site features:
 
-- **CTF Writeups** — TryHackMe, HackTheBox, picoCTF, and more  
-- **Learning Low-Level** — C, Assembly, memory management, exploit dev  
-- **Reverse Engineering & Exploit Notes**  
-- **OMSCY Study Notes and Projects**  
-- **Blog Posts** on InfoSec concepts, tooling, and vulnerability research
+- **CTF Writeups**
+- **Learning Low-Level Programming**
+- **Reverse Engineering and Exploit Notes**  
+- **OMSCY Study Notes**
 
 ---
 
@@ -45,7 +44,7 @@ This site features:
 ```
 Copyright (c) 2013 Mark Otto  
 Copyright (c) 2017 Andrew Fong  
-Copyright (c) 2019 Sami Alaoui Kendil (0x44.cc)
+Copyright (c) 2019 Sami Alaoui Kendil
 ```
 
 ---
