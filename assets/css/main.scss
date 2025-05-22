@@ -1,0 +1,82 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+@import "hydeout";
+
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: none;
+  background-color: #24314d;
+  color: #ffffff;
+  padding: 0.6rem 0.8rem;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.2rem;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#back-to-top:hover {
+  background-color: #3d4e6b;
+}
+
+
+.footer {
+  /* Mobile (<900px) */
+  @media screen and (min-width: 5rem) {
+  position: absolute;
+  bottom: 1;
+  width: 100%;
+  text-align: left;
+  padding: 1.6rem;
+  font-size: 0.9rem;
+  }
+  /* Normal (≥900px) */
+  @media screen and (min-width: 35rem) {
+  position: absolute;
+  bottom: 1;
+  width: 100%;
+  text-align: left;
+  padding: 0rem;
+  font-size: 0.9rem;
+  }
+}
+
+.custom-alert {
+  background-color: #2a354d;     /* dark base */
+  color: #eaeaea;                /* light text */
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  border-radius: 6px;
+  border-left: 4px solid;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.custom-alert-note {
+  border-left-color: #7fa1c4;    /* pastel blue */
+}
+
+.custom-alert-tip {
+  border-left-color: #6cc1ff;    /* brighter cyan */
+}
+
+.custom-alert-warning {
+  border-left-color: #ffa94d;    /* soft orange */
+  background-color: #3c2f1c;     /* warm, low-contrast bg */
+}
+
+.custom-alert-important {
+  border-left-color: #ff6b6b;    /* pastel red */
+  background-color: #3d2a2a;     /* matching muted red bg */
+}
+
+.custom-alert strong {
+  color: #cbdff6;                /* soft contrast */
+}

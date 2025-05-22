@@ -1,0 +1,8 @@
+{% assign user_str = "anon" %}
+{% assign host_str = "j4ke.io" %}
+{% assign dir_str  = "~/0xdeadbeef" %}
+{% assign cmd_str  = "./trace --ctf --asm | grep vuln" %}
+
+<pre class="terminal-title">
+<font style="color:#dbe3ec">┌──(</font><font style="color:#7fa1c4">{{ user_str }}</font><font style="color:#ffffff">@</font><font style="color:#6f91b0">{{ host_str }}</font><font style="color:#dbe3ec">)-[</font><font style="color:#5d7a99">{{ dir_str }}</font><font style="color:#dbe3ec">]
+└─</font><font style="color:#7fa1c4">$</font> <font style="color:#9aa3ad">{{ cmd_str }}</font></pre>

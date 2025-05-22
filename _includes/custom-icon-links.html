@@ -1,0 +1,29 @@
+{% if site.github_username %}
+    <a id="github-link" class="icon" title="GitHub" aria-label="GitHub" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+        {% include svg/github.svg %}
+    </a>
+{% endif %}
+
+{% if site.linkedin_username %}
+    <a id="linkedin-link" class="icon" title="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">
+        {% include svg/linkedin.svg %}
+    </a>
+{% endif %}
+
+{% if site.tryhackme_username %}
+  <a id="tryhackme-link" class="icon" title="TryHackMe" aria-label="TryHackMe" href="https://tryhackme.com/p/{{ site.tryhackme_username }}" target="_blank" rel="noopener">
+    {% include svg/tryhackme.svg %}
+  </a>
+{% endif %}
+
+{% if site.bootdev_username %}
+  <a id="boot-dev-link" class="icon" title="Boot.dev" aria-label="Boot.dev" href="https://boot.dev/profile/{{ site.bootdev_username }}" target="_blank" rel="noopener">
+    {% include svg/bootdev.svg %}
+  </a>
+{% endif %}
+
+{% if site.codecademy_username %}
+  <a id="codecademy-link" class="icon" title="Codecademy" aria-label="Codecademy" href="https://www.codecademy.com/profiles/{{ site.codecademy_username }}" target="_blank" rel="noopener">
+    {% include svg/codecademy.svg %}
+  </a>
+{% endif %}

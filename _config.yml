@@ -1,0 +1,45 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            j4ke.io
+tagline:          'CTFs, Shells, and Segfaults.'
+description:      'CTFs, Shells, and Segfaults.'
+url:              https://j4ke.io
+#baseurl:          '/hydeout'
+
+author:
+  name:           'j4ke'
+  url:            https://linkedin.com/j4ke
+
+github_username:      j4ke-exe
+linkedin_username:    j4ke
+
+paginate:           4
+paginate_path:    '/page/:num'
+excerpt_max_length: 300
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-timeago
+
+# Simplify category URLs
+defaults:
+    - scope:
+        path: category
+        type: pages
+      values:
+        permalink: /:basename/
+
+# Sidebar link settings
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+
+extlinks:
+  attributes: {rel: noopener noreferrer, target: _blank}
