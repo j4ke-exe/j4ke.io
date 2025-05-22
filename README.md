@@ -27,16 +27,7 @@ This site features:
 
 ---
 
-## Contact / Profiles
-
-- [TryHackMe](https://tryhackme.com/p/.j4ke)
-- [Boot.dev](https://www.boot.dev/u/j4ke)
-- [Codecademy](https://www.codecademy.com/profiles/j4ke_exe)
-- [LinkedIn](https://linkedin.com/in/j4ke)
-
----
-
-## Style & Theme Credits
+## Credits
 
 - Theme and layout style inspired by [0x44.cc](https://0x44.cc)  
 - Based on the Hydeout Jekyll theme  
