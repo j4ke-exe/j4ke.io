@@ -1,6 +1,4 @@
-# j4ke.io
-
-Welcome to my personal site, [j4ke.io](https://j4ke.io)! I blog about InfoSec, CTFs, and low-level systems programming. It’s built using [Jekyll](https://jekyllrb.com) and serves as both a portfolio and a living notebook for my journey through cybersecurity engineering.
+Welcome to my site, [j4ke.io](https://j4ke.io)! I blog about InfoSec, CTFs, and low-level systems programming. It’s built using [Jekyll](https://jekyllrb.com) and serves as both a portfolio and a living notebook for my journey through cybersecurity engineering.
 
 ---
 
@@ -12,7 +10,7 @@ This site will feature detailed notes, projects, and writeups as I work through 
 - Applied Cryptography & Network Security  
 - Secure Software Design  
 - Malware Analysis & Reverse Engineering  
-- Cyber Physical Systems & Critical Infrastructure Defense  
+- Cyber-Physical Systems & Critical Infrastructure Defense  
 
 If you're interested in GT OMSCY or self-studying cybersecurity, this site will document every step.
 
@@ -27,14 +25,6 @@ This site features:
 - **Reverse Engineering & Exploit Notes**  
 - **OMSCY Study Notes and Projects**  
 - **Blog Posts** on InfoSec concepts, tooling, and vulnerability research
-
----
-
-## Built With
-
-- [Jekyll](https://jekyllrb.com) — Static site generator  
-- [Hydeout Theme](https://github.com/fongandrew/hydeout) — Base theme  
-- Theme inspired by [0x44.cc](https://0x44.cc)  
 
 ---
 
