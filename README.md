@@ -2,20 +2,6 @@ Welcome to my site, [j4ke.io](https://j4ke.io)! I blog about InfoSec, CTFs, and 
 
 ---
 
-## OMSCY at Georgia Tech
-
-I'm currently pursuing the **Online Master of Science in Cybersecurity (InfoSec track)** at **Georgia Tech**.  
-This site will feature detailed notes, projects, and writeups as I work through the OMSCY curriculum — including:
-
-- Applied Cryptography & Network Security  
-- Secure Software Design  
-- Malware Analysis & Reverse Engineering  
-- Cyber-Physical Systems & Critical Infrastructure Defense  
-
-If you're interested in GT OMSCY or self-studying cybersecurity, this site will document every step.
-
----
-
 ## About
 
 This site features:
@@ -23,7 +9,7 @@ This site features:
 - **CTF Writeups**
 - **Learning Low-Level Programming**
 - **Reverse Engineering and Exploit Notes**  
-- **OMSCY Study Notes**
+- **Georgia Tech OMSCY Study Notes**
 
 ---
 
