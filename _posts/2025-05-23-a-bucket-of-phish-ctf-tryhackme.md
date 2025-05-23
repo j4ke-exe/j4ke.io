@@ -12,6 +12,7 @@ categories:
 In this TryHackMe CTF challenge, [A Bucket of Phish](https://tryhackme.com/room/hfb1abucketofphish), we’ll go step-by-step through finding and exploiting a misconfigured AWS S3 bucket. The bucket hosts a static version of a CMail login page, and with a bit of investigation, we’re able to dig deeper and ultimately pull a list of compromised users.
 
 <br>
+
 ## Step 1: Initial Recon
 
 Target domain:
