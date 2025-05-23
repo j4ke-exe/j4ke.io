@@ -7,7 +7,7 @@ categories:
   - ctfs
 ---
 
-![](https://github.com/j4ke-exe/j4ke.io/assets/media/a-bucket-of-phish-banner.jpeg){: .center-image }
+![](https://github.com/j4ke-exe/j4ke.io/blob/main/assets/media/a-bucket-of-phish-banner.jpeg){: .center-image }
 
 In this TryHackMe CTF challenge, A Bucket of Phish, we’ll go step-by-step through finding and exploiting a misconfigured AWS S3 bucket. The bucket hosts a static version of a CMail login page, and with a bit of investigation, we’re able to dig deeper and ultimately pull a list of compromised users.
 
@@ -20,7 +20,7 @@ Target domain:
 http://darkinjector-phish.s3-website-us-west-2.amazonaws.com
 ```
 
-![](https://github.com/j4ke-exe/j4ke.io/assets/media/a-bucket-of-phish-cmail.jpeg){: .center-image }
+![](https://github.com/j4ke-exe/j4ke.io/blob/main/assets/media/a-bucket-of-phish-cmail.jpeg){: .center-image }
 
 We inspect the website content to understand what kind of application is hosted.
 
