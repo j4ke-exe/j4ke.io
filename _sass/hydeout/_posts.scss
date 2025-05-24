@@ -35,12 +35,12 @@ article + *, .post-body ~ section {
 .terminal-title {
   font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace !important;
   font-size: calc(6vw - 0.56rem);
-  line-height: calc(6.6vw - 0.52rem);
+  line-height: calc(6.6vw - 0.51rem);
   overflow: hidden;
 
   /* Medium screens (≥560px) */
   @media screen and (min-width: 35rem) {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     line-height: 2rem;
   }
 
