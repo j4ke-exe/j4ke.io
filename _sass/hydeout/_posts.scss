@@ -33,28 +33,31 @@ article + *, .post-body ~ section {
 }
 
 .terminal-title {
-  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace !important;
-  font-size: calc(6vw - 0.47rem);
-  line-height: calc(6.6vw - 0.36rem);
-  overflow: hidden;
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace !important;
+    font-size: calc(6vw - 0.56rem);
+    line-height: calc(6.6vw - 0.42rem);
+    overflow: hidden
+}
 
-  /* Medium screens (≥560px) */
-  @media screen and (min-width: 35rem) {
-    font-size: 1.8rem;
-    line-height: 2rem;
-  }
+@media screen and (min-width: 35rem) {
+    .terminal-title {
+        font-size:1.8rem;
+        line-height: 2rem
+    }
+}
 
-  /* Large screens (≥1024px) */
-  @media screen and (min-width: 64rem) {
-    font-size: calc(6vw - 1.6rem);
-    line-height: calc(6.6vw - 1.76rem);
-  }
+@media screen and (min-width: 64rem) {
+    .terminal-title {
+        font-size:calc(6vw - 1.6rem);
+        line-height: calc(6.6vw - 1.76rem)
+    }
+}
 
-  /* Extra large screens (≥1280px) */
-  @media screen and (min-width: 79rem) {
-    font-size: 1.8rem;
-    line-height: 2rem;
-  }
+@media screen and (min-width: 79rem) {
+    .terminal-title {
+        font-size:1.8rem;
+        line-height: 2rem
+    }
 }
 
 #progress-bar {
