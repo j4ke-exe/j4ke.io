@@ -1,4 +1,4 @@
-Welcome to my site, [j4ke.io](https://j4ke.io)! I blog about InfoSec, CTFs, and low-level systems programming. It’s built using [Jekyll](https://jekyllrb.com) and serves as both a portfolio and a living notebook for my journey through cybersecurity engineering.
+Welcome to my site, [j4ke.io](https://j4ke.io)! I blog about InfoSec, CTFs, and low-level systems programming. It’s built using [Jekyll](https://jekyllrb.com) and serves as both a portfolio and a living notebook cataloging my journey.
 
 ---
 
@@ -9,7 +9,7 @@ This site features:
 - **CTF Writeups**
 - **Learning Low-Level Programming**
 - **Reverse Engineering and Exploit Notes**  
-- **Georgia Tech OMSCY Study Notes**
+- **Georgia Tech MSCSEC Study Notes**
 
 ---
 
